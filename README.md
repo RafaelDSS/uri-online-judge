@@ -1,2 +1,2 @@
 # uri-online-judge
-Desafios do uri-onlinejudge
+Desafios do uri-online-judge
