@@ -1,0 +1,21 @@
+import java.io.IOException;
+import java.util.Scanner;
+ 
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+        int a, b, c, d, diferenca;
+        
+        Scanner read = new Scanner(System.in);
+        
+        a = read.nextInt();
+        b = read.nextInt();
+        c = read.nextInt();
+        d = read.nextInt();
+
+        diferenca = ((a * b) - (c * d));
+        
+        System.out.println("DIFERENCA = " + diferenca);
+    }
+ 
+}

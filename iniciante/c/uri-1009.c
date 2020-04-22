@@ -1,17 +1,17 @@
 #include <stdio.h>
 
+
 int main() {
-    int numero, horas;
-    float valor_hora, salario;
+    char nome[100];
+    double salario, vendas;
 
-    scanf("%d", &numero);
-    scanf("%d", &horas);
-    scanf("%f", &valor_hora);
+    scanf("%s", &nome);
+    scanf("%lf", &salario);
+    scanf("%lf", &vendas);
 
-    salario = horas * valor_hora;
+    salario = salario + (vendas * 0.15);
 
-    printf("NUMBER = %d\n", numero);
-    printf("SALARY = U$ %.2f\n", salario);
+    printf("TOTAL = R$ %.2f\n", salario);
     
     return 0;
 }
