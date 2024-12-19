@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 
-I = 1
-J = 7
-for _ in range(5):
-    a = J
-    for _ in range(3):
-        print('I=%d J=%d' %(I, a))
-        a -= 1
-    J += 2
-    I += 2
+start_seq = 5
+
+for i in range(1, 10, 2):
+    for j in range(start_seq, start_seq + 3)[::-1]:
+        print(f"I={i} J={j}")
+    start_seq += 2
+
